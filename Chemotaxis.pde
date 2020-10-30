@@ -3,6 +3,7 @@ Bacteria[] bob;
  void setup()   
  {     
    //initialize bacteria variables here
+   background(0);
    size(500,500);
    bob = new Bacteria[100];
    for(int i = 0; i < bob.length; i++)
